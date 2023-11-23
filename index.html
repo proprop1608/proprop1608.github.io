@@ -1,0 +1,227 @@
+<!Doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lte-ie9 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lte-ie9 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lte-ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>ИСОУ "Виртуальная школа"</title>
+
+    <link rel="shortcut icon" type="image/gif" href="i/favicon.gif">
+    <link rel="stylesheet" href="css/main.css?8">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script src="js/jquery.webui-popover.min.js"></script>
+    <script src="js/main.js?38"></script>
+
+    <!--[if lte IE 9]>
+    <script src="js/placeholder.min.js"></script>
+    <![endif]-->
+</head>
+<body class="school">
+
+<div class="wrapper">
+    <header class="header" role="banner">
+        <div class="switch-page switch-page_school">
+            <div class="switch-page__nav" role="navigation">
+                <a href="javascript:void(0);" class="switch-page__nav-item js-uslugi-link" data-type-section="statement"><span class="switch-page__nav-text">Подача заявлений</span></a>
+                <span class="switch-page__nav-item switch-page__nav-item_active" data-type-section="school"><span class="switch-page__nav-text">Виртуальная школа</span></span>
+            </div>
+
+            <div class="switch-page__content">
+                <div class="switch-page__content-item switch-page__content-item_school">
+                    <div class="form-auth__item">
+                        <select class="js-region-select form-auth__field"></select>
+                    </div>
+                    <div class="form-auth__item">
+                        <a class="js-auth-button form-auth__btn">Войти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo">
+            <img src="i/logo.png" alt="Виртуальная школа" class="logo__img">
+            <div class="logo__title">
+                Информационная система образовательных услуг <span class="decor-element"><span class="decor-element__item"></span><span class="decor-element__item"></span><span class="decor-element__item"></span><span class="decor-element__item"></span><span class="decor-element__item"></span></span>
+            </div>
+        </div>
+
+    </header>
+
+    <!--
+    СЛАЙДЕР
+        <div class="rotator" data-rotator-type="refresh" data-rotator-time="60">
+
+    ПАРАМЕТРЫ СЛАЙДЕРА
+        data-rotator-type
+            refresh - смена баннеров после обновления страницы
+            slider - смена слайдами
+
+        data-rotator-time
+            задержка в секундах, если активен режим "slider"
+    -->
+
+    <div class="rotator" data-rotator-type="refresh" data-rotator-time="10">
+        <div class="rotator__list js-banner-rotator">
+        </div>
+    </div>
+
+    <main class="content" role="main">
+        <div class="content-inner">
+            <section class="mobile">
+                <div class="mobile__content" style="width: auto;">
+                    <div class="news__item-title">
+                        <p style="padding-bottom: 20px; font-size: 16px; text-align: center"><b>Мобильное приложение для учеников и их родителей</b>
+                            <a href="https://itunes.apple.com/ru/app/%D0%B8%D1%81%D0%BE%D1%83-%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/id1435152479?mt=8" class="rotator__link" target="_blank"><img src="https://www.vsopen.ru/i/App_Store_Badge.png" alt="" class="rotator__image" style="height: 40px; padding-left: 20px;"></a>
+                            <a href="https://play.google.com/store/apps/details?id=ru.vsopen&hl=ru" class="rotator__link" target="_blank"><img src="https://www.vsopen.ru/i/google-play-badge.png" alt="" class="rotator__image" style="height: 59px;"></a>
+                            <a href="https://appgallery.huawei.com/#/app/C103907921" class="rotator__link" target="_blank"><img src="https://www.vsopen.ru/i/Huawei_app.png" alt="" class="rotator__image" style="height: 43px;"></a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="services-school">
+                <div class="services-school__nav">
+                    <div class="services-school__nav-item services-school__nav-item_active" data-school-service="automate">
+                        <div class="services-school__nav-inner">
+                            <div class="services-school__wrap-img">
+                                <img src="i/vs-service-automate.png" alt="" class="services-school__img">
+                            </div>
+                            <div class="services-school__text">
+                                <span class="services-school__text-inner">Автоматизация</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-school__nav-item" data-school-service="journal">
+                        <div class="services-school__nav-inner">
+                            <div class="services-school__wrap-img">
+                                <img src="i/vs-service-journal.png" alt="" class="services-school__img">
+                            </div>
+                            <div class="services-school__text">
+                                <span class="services-school__text-inner">Электронный журнал</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-school__nav-item" data-school-service="electronic">
+                        <div class="services-school__nav-inner">
+                            <div class="services-school__wrap-img">
+                                <img src="i/vs-service-electronic.png" alt="" class="services-school__img">
+                            </div>
+                            <div class="services-school__text">
+                                <span class="services-school__text-inner">Услуги в электронном виде</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-school__content">
+                    <div class="services-school__content-item" data-school-service="automate">
+                        <ul>
+                            <li>Автоматизация основных управленческих процессов в сфере начального общего, основного общего, среднего общего образования;</li>
+                            <li>Осуществление аналитических и статистических, мониторинговых исследований по различным срезам базы данных;</li>
+                            <li>Электронный документооборот в сфере образования.</li>
+                        </ul>
+                    </div>
+                    <div class="services-school__content-item" data-school-service="journal">
+                        <ul>
+                            <li>ИСОУ "Виртуальная школа" предоставляет возможность отказа от ведения бумажного учебного журнала. Печать всех разделов классного  журнала осуществляется в конце учебного периода;</li>
+                            <li>Формирование отчетности по организации образовательного процесса, текущей, итоговой успеваемости и посещаемости</li>
+                        </ul>
+                    </div>
+                    <div class="services-school__content-item" data-school-service="electronic">
+                        <ul>
+                            <li>Родитель и ученик могут получить информацию об успеваемости и посещаемости, информацию об образовательных программах и учебных планах, рабочих программах учебных курсов, предметов, дисциплин (модулей), годовых календарных учебных графиках учебных планах и рабочих программах, а также многое другое, связанное с образовательным процессом в школе;</li>
+                            <li>Выпускник может узнать о порядке проведения государственной (итоговой) аттестации обучающихся, в том числе в форме ЕГЭ, а также получить информацию о результатах ЕГЭ.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contact">
+            <div class="contact__item contact__item_phone">
+                <div class="contact__area">
+                    <div class="contact__list">
+                        <div class="contact__ilustr" title="Техническая поддержка ИСОУ «Виртуальная школа»"></div>
+                        <div class="contact__text contact__bold">Белгородская область:</div>
+                        <div class="contact__text">+7 (4722) 777-282</div>
+                        <div class="contact__text contact__bold">Брянская область:</div>
+                        <div class="contact__text">+7 (4832) 590-429</div>
+                    </div>
+                    <div class="contact__list">
+                        <div class="contact__text contact__bold">Орловская область:</div>
+                        <div class="contact__text">+7 (4862) 73-17-79 (доб. 126, 127, 131, 134, 137)</div>
+                        <div class="contact__text">+7 (4862) 43-25-96 (доб. 126, 127, 131, 134, 137)</div>
+                        <div class="contact__text">+7 (4862) 43-09-70</div>
+                    </div>
+                </div>
+                <div class="contact__text news__time">пн.-пт. 9:00 - 18:00, сб.-вс. выходные</div>
+            </div>
+            <div class="contact__item contact__item_email">
+                <div class="contact__ilustr" title="Техническая поддержка ИСОУ «Виртуальная школа»"></div>
+                <div class="contact__text">
+                    <a href="mailto:info@vsopen.ru">info@vsopen.ru</a>
+                </div>
+            </div>
+            <div class="contact__item contact__item_vk">
+                <a class="contact__ilustr" href="https://vk.com/vsopenru" target="_blank" title="ИСОУ «Виртуальная школа»"></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <img src="i/rt.png" alt="Ростелеком" class="footer__logo">
+        <small class="footer__copyright">Разработано в <img src="i/black-circle.png" alt="ФИТ" class="footer__fabit"> <a href="http://fabit.ru" target="blank">ООО «Фабрика Информационных Технологий»</a></small>
+    </footer>
+</div>
+
+<div class="action-bar">
+    <a class="action-bar__link action-bar__link_esia" rel="nofollow" title="Руководство пользователя ЕСИА" href="http://minsvyaz.ru/uploaded/presentations/rpesiav225.pdf">
+        <span class="action-bar__text">Руководство ЕСИА</span>
+    </a>
+    <a class="action-bar__link action-bar__link_manual" rel="nofollow" title="Скачать руководство пользователя" href="UPLOAD/handbook.zip" download="ИСОУ Виртуальная школа. Руководство.zip">
+        <span class="action-bar__text">Руководство пользователя</span>
+        <span class="action-bar__help">(Скачать документ)</span>
+    </a>
+    <a class="action-bar__link action-bar__link_pdn" rel="nofollow" title="Политика обработки ПДн" href="/privacypolicy">
+        <span class="action-bar__text">Политика обработки ПДн</span>
+    </a>
+</div>
+
+
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script>
+(function(w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter222395 = new Ya.Metrika({id:222395, enableAll: true, trackHash:true});
+        }
+        catch(e) { }
+    });
+})(window, "yandex_metrika_callbacks");
+</script></div>
+<script src="//mc.yandex.ru/metrika/watch.js" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/222395" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<script>
+    $(document).ready(function() {
+        initRegionSelector();
+        initServicesSchoolItemsSwitch();
+    });
+</script>
+
+</body>
+</html>
